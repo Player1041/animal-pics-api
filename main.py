@@ -5,6 +5,7 @@ import random
 
 app = FastAPI()
 
+
 @app.get("/random")
 async def random():
     return FileResponse('otters/' + (random.choice(os.listdir("otters")))
