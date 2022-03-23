@@ -1,3 +1,5 @@
+@Average Penis Enjoyer | Player so
+
 from random import choice
 from glob import glob
 
@@ -8,5 +10,5 @@ app = FastAPI()
 
 
 @app.get("/")
-async def otters():
+async def main():
     return FileResponse(choice(glob('otters/*')))
