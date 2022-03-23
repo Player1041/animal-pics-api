@@ -13,7 +13,8 @@ also if you're using a discord bot, make sure you append something that's random
 import time
 url = f"https://otter-pics-api-production.up.railway.app/?huh={hash(time.time())}"
 ```
-discord cache and all that, blame discord for that
+discord cache and all that, blame discord for that\n
+if you want to add photos, make a fork, add photos to the `otters` folder and merge it.\n
 credits:\
 Jan - fixed basically everything\
 Victor - cute otters :)\
