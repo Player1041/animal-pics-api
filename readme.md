@@ -3,7 +3,7 @@
 This API was created because there wasn't any otter photo APIs and it made me and a few others a bit upset.\
 so we made it ourselfs
 
-https://otter-pics-api-production.up.railway.app/\
+https://otter-pics-api-production.up.railway.app/
 
 ^^^^^^^^^^^^^
 
