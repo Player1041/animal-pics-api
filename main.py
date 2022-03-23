@@ -7,5 +7,5 @@ app = FastAPI()
 
 
 @app.get("/random")
-async def random():
+async def random_otter():
     return FileResponse('otters/' + (random.choice(os.listdir("otters")))
