@@ -1,11 +1,12 @@
+from random import choice
+from glob import glob
+
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
-import os
-import random
 
 app = FastAPI()
 
 
-@app.get("/random")
-async def random_otter():
-    return FileResponse('otters/' + (random.choice(os.listdir("otters")))
+@app.get("/")
+async def otters():
+    return FileResponse(choice(glob('otters/*')))
