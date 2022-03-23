@@ -1,7 +1,7 @@
 # Otter Photos API
 
 This API was created because there wasn't any otter photo APIs and it made me and a few others a bit upset.\
-so we made it ourselfs
+so we made one ourselves
 
 https://otter-pics-api-production.up.railway.app/
 
@@ -13,7 +13,7 @@ also if you're using a discord bot, make sure you append something that's random
 import time
 url = f"https://otter-pics-api-production.up.railway.app/?huh={hash(time.time())}"
 ```
-discord cache and all that, blame discord for that\
+discord cache and all that, blame discord for that
 credits:\
 Jan - fixed basically everything\
 Victor - cute otters :)\
