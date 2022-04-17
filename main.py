@@ -7,12 +7,6 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
-@app.get("/")
-async def site(response_class=HTMLResponse):
-    return FileResponse("index.html")
-
 
 @app.get("/otters")
 async def otter():
